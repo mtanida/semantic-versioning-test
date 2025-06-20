@@ -1,0 +1,29 @@
+name: "Semantic Release"
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - develop
+      - masatoshi-semantic-release
+env:
+  NODE_VERSON: "22.15.0"
+jobs:
+  semantic-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout skild-hardware repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+          fetch-depth: 0
+          token: ${{ secrets.GH_TOKEN }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - run: npm ci
+      - run: npm audit signatures
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: npx semantic-release
