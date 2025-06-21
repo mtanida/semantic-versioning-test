@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/mtanida/semantic-versioning-test/compare/v1.0.0...v1.1.0) (2025-06-21)
+
+
+### Features
+
+* publish docker container image ([4890c1c](https://github.com/mtanida/semantic-versioning-test/commit/4890c1cf02f84d80c1608e9ed3ba88c588e7bf32))
+
 # 1.0.0 (2025-06-20)
 
 
