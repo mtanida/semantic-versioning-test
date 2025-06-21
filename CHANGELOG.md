@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/mtanida/semantic-versioning-test/compare/v1.1.0...v1.2.0) (2025-06-21)
+
+
+### Features
+
+* multi-job release workflow ([474f218](https://github.com/mtanida/semantic-versioning-test/commit/474f21887c32ba1b8bd3c70ab75be27a8908b466))
+
 # [1.1.0](https://github.com/mtanida/semantic-versioning-test/compare/v1.0.0...v1.1.0) (2025-06-21)
 
 
