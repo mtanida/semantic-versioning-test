@@ -1,3 +1,10 @@
+# 1.0.0 (2025-06-21)
+
+
+### Features
+
+* add semantic-release ([b04c4f7](https://github.com/mtanida/semantic-versioning-test/commit/b04c4f729cd1bcee52d8a1ef540ad641f00165f2))
+
 ## [1.2.1](https://github.com/mtanida/semantic-versioning-test/compare/v1.2.0...v1.2.1) (2025-06-21)
 
 
