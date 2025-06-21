@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/mtanida/semantic-versioning-test/compare/v1.2.0...v1.2.1) (2025-06-21)
+
+
+### Bug Fixes
+
+* re-enable docker push ([a18c12a](https://github.com/mtanida/semantic-versioning-test/commit/a18c12aaa7ffd497bbb770200070520454a3e93e))
+
 # [1.2.0](https://github.com/mtanida/semantic-versioning-test/compare/v1.1.0...v1.2.0) (2025-06-21)
 
 
